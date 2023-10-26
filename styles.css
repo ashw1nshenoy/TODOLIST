@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -60,6 +61,11 @@ ul li span:hover{
     background-color: gainsboro;
     cursor: pointer;
     border-radius: 50%;
+}
+#list{
+    font-size: 500;
+    font-weight: bold;
+    font-family: 'Playpen Sans', cursive;
 }
 @media only screen and (max-width: 768px){
     body{
